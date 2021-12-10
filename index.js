@@ -8,7 +8,7 @@ function askUser() {
     if(!answer){
     break;
     }
-    const currentWord = prompt(message: 'Enter your word');
+    const currentWord = prompt('Enter your word');
     words.push(currentWord);
     }
     }
